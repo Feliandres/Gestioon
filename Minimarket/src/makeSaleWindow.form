@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="makeSaleWindow">
+  <grid id="27dc6" binding="makeSale" layout-manager="GridLayoutManager" row-count="15" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="828" height="448"/>
+    </constraints>
+    <properties>
+      <background color="-8801097"/>
+      <font name="Source Code Pro" size="12"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="69104" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12" style="1"/>
+          <foreground color="-462625"/>
+          <text value="DNI"/>
+        </properties>
+      </component>
+      <vspacer id="fb366">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="84905" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="10" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="16" style="1"/>
+          <foreground color="-462625"/>
+          <icon value="assets/sellTitle.png"/>
+          <text value="Venta"/>
+        </properties>
+      </component>
+      <component id="196f9" class="javax.swing.JTextField" binding="dniJT">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12"/>
+        </properties>
+      </component>
+      <hspacer id="3fba3">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="4a9cb">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="f8681">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="82ccc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12" style="1"/>
+          <foreground color="-462625"/>
+          <text value="Nombre"/>
+        </properties>
+      </component>
+      <component id="b66e6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Source Code Pro" size="12" style="1"/>
+          <foreground color="-462625"/>
+          <text value="Apellido"/>
+        </properties>
+      </component>
+      <component id="3a411" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12" style="1"/>
+          <foreground color="-462625"/>
+          <text value="Direccion"/>
+        </properties>
+      </component>
+      <component id="b27c" class="javax.swing.JTextField" binding="nameJT">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12"/>
+        </properties>
+      </component>
+      <component id="77ed3" class="javax.swing.JTextField" binding="lastNJT">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12"/>
+        </properties>
+      </component>
+      <component id="5a682" class="javax.swing.JTextField" binding="addressJt">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12"/>
+        </properties>
+      </component>
+      <component id="64586" class="javax.swing.JButton" binding="printButton">
+        <constraints>
+          <grid row="13" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12828091"/>
+          <foreground color="-15724785"/>
+          <icon value="assets/generateSell.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="7289f">
+        <constraints>
+          <grid row="12" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="a08e5">
+        <constraints>
+          <grid row="14" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="25703" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12" style="1"/>
+          <foreground color="-462625"/>
+          <text value="Cambio"/>
+        </properties>
+      </component>
+      <component id="49dab" class="javax.swing.JLabel" binding="subTotalJL">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="72641" class="javax.swing.JLabel" binding="cambioJL">
+        <constraints>
+          <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <hspacer id="27d8b">
+        <constraints>
+          <grid row="13" column="6" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="e57a8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12" style="1"/>
+          <foreground color="-462625"/>
+          <text value="Pago Cliente"/>
+        </properties>
+      </component>
+      <component id="6184f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12" style="1"/>
+          <foreground color="-462625"/>
+          <text value="Subtotal"/>
+        </properties>
+      </component>
+      <component id="464eb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12" style="1"/>
+          <foreground color="-462625"/>
+          <text value="E-mail"/>
+        </properties>
+      </component>
+      <component id="b3ab2" class="javax.swing.JTextField" binding="emailJT">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4e11f" class="javax.swing.JButton" binding="queryButton">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="10" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12828091"/>
+          <foreground color="-15724785"/>
+          <icon value="assets/searchProvider.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e598e" class="javax.swing.JTextField" binding="moneyUserJT">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12"/>
+        </properties>
+      </component>
+      <component id="91808" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12" style="1"/>
+          <foreground color="-462625"/>
+          <text value="IVA"/>
+        </properties>
+      </component>
+      <component id="45de0" class="javax.swing.JTextField" binding="phoneJT">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12"/>
+        </properties>
+      </component>
+      <component id="9040d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12" style="1"/>
+          <foreground color="-462625"/>
+          <text value="Telefono"/>
+        </properties>
+      </component>
+      <component id="fc437" class="javax.swing.JTextField" binding="ivaJT">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12"/>
+        </properties>
+      </component>
+      <component id="e42c3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12" style="1"/>
+          <foreground color="-462625"/>
+          <text value="Total"/>
+        </properties>
+      </component>
+      <component id="44ca8" class="javax.swing.JTextField" binding="totalJT">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

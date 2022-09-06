@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="pathWindow">
+  <grid id="27dc6" binding="configurationW" layout-manager="GridLayoutManager" row-count="4" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="2" left="2" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="525" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-3342403"/>
+      <focusCycleRoot value="false"/>
+    </properties>
+    <border type="empty"/>
+    <children>
+      <hspacer id="64c3c">
+        <constraints>
+          <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="25" height="-1"/>
+            <maximum-size width="25" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="147c3">
+        <constraints>
+          <grid row="0" column="4" row-span="4" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="25" height="-1"/>
+            <maximum-size width="25" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="6fca5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="assets/image_pdf.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="25905" class="javax.swing.JTextField" binding="pathJT">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="350" height="-1"/>
+            <preferred-size width="150" height="-1"/>
+            <maximum-size width="350" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2fb89" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Source Code Pro" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Path:"/>
+        </properties>
+      </component>
+      <component id="e312e" class="javax.swing.JButton" binding="SAVEButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="-1"/>
+            <maximum-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-9474444"/>
+          <font name="Source Code Pro" size="12"/>
+          <foreground color="-16777216"/>
+          <icon value="assets/save_icon.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

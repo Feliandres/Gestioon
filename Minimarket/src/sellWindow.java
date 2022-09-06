@@ -93,6 +93,7 @@ public class sellWindow extends JFrame{
                         }catch (Exception er){
                             System.out.println(er);
                         }
+                        this.isExists = false;
                     }
                 } catch (SQLException ex) {
                     throw new RuntimeException(ex);
@@ -184,7 +185,6 @@ public class sellWindow extends JFrame{
                     conditionCreate = false;
                 }
                 if (conditionCreate){
-
                     double subPrice = (double) Math.round(price * quantityToBuy * 100)/ 100;
                     double totalPrice = (discountD > 0.0) ? (double) Math.round((subPrice - (subPrice*discountD))*100)/100 : subPrice;
                     co.createDet(cod_pro, descri_pro, quantityToBuy, price, discountD, totalPrice);

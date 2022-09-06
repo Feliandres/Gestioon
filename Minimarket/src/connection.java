@@ -24,8 +24,8 @@ public class connection {
 
     // Get connection to BDD
     private void getConnection(){
-        try{ this.con = DriverManager.getConnection("jdbc:mysql://localhost/minimarket", "root"
-                , "");
+        try{ this.con = DriverManager.getConnection("jdbc:mysql://localhost/minimarket", "userM"
+                , "minimarket@gestion");
         } catch (SQLException e){ System.out.println("Exception: " + e); }
     }
 
@@ -307,7 +307,7 @@ public class connection {
         try{
             String qryReadDet = "SELECT * FROM detalle WHERE FKnum_CF = ?";
             this.pS = this.con.prepareStatement(qryReadDet);
-            this.pS.setInt(1, getNum_CF());
+            this.pS.setInt(1, connection.getNum_CF());
             return this.pS.executeQuery();
         } catch (SQLException eRd){
             System.out.println("FAILED :( READ DET" + eRd);
@@ -316,7 +316,7 @@ public class connection {
     }
     public double currentPrice(){
         try{
-            String sqlCurrentPrice = "SELECT subT_CF FROM cabfactura WHERE num_CF = " + getNum_CF();
+            String sqlCurrentPrice = "SELECT subT_CF FROM cabfactura WHERE num_CF = " + connection.getNum_CF();
             this.pS = this.con.prepareStatement(sqlCurrentPrice);
             ResultSet rS = this.pS.executeQuery();
             if (rS.next()){
@@ -333,7 +333,6 @@ public class connection {
             return 0.0;
         }
     }
-
     public ResultSet searchInDetails(String codPro){
         try{
             String qryDetail = "SELECT * FROM detalle WHERE codPro_Det = ? AND FKnum_CF = ?";
@@ -346,7 +345,6 @@ public class connection {
             return null;
         }
     }
-
     public void updateDetail(int cantPro, double pUPro, double descPro, String codPro){
         try{
             String updateDetail = "UPDATE detalle SET cantPro_DET = ?, pUPro = ?, descPro = ?, valto_det = ? WHERE FKnum_CF = ? AND codPro_Det = ?";
@@ -581,23 +579,6 @@ public class connection {
     }
     // ------------------------------------------------------------------------
 
-
-    // ------------------------ Get Max & Min Data Products ------------------------
-    public ResultSet maxMinData(String fromDate, String toDate){
-        try {
-            String qryMaxMin = "SELECT D.codPro_Det, D.detPro_Det, SUM(Cb.valT_CF), SUM(D.cantPro_Det) FROM CabFactura Cb, detalle D, producto P" +
-                    " WHERE cb.num_CF = D.Fknum_CF AND D.codPro_Det = P.cod_Pro AND Cb.fecha_CF BETWEEN ? AND ?" +
-                    " GROUP BY D.codPro_Det" +
-                    " ORDER BY SUM(D.cantPro_Det) DESC LIMIT 2";
-            this.pS = this.con.prepareStatement(qryMaxMin);
-            this.pS.setString(1, fromDate);
-            this.pS.setString(2, toDate);
-            return this.pS.executeQuery();
-        } catch (SQLException loginE){
-            System.out.println("Exception: " + loginE);
-            return null;
-        }
-    }
 
 
     // ----------------------------- GETTERS AND SETTERS -----------------------------

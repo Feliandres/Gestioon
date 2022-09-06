@@ -79,6 +79,9 @@ public class makeSaleWindow extends JFrame{
                                 JOptionPane.showMessageDialog(null,"Usuario no encontrado!\n Registre Ahora"
                                         , "ALERTA", JOptionPane.INFORMATION_MESSAGE);
                                 this.changeAll(true);
+                                emailJT.setText(credentialsToUse.getEma_Emp());
+                                phoneJT.setText(credentialsToUse.getTel_Emp());
+                                addressJt.setText(credentialsToUse.getDir_Emp());
                             }
                         } catch (SQLException eRD){
                             System.out.println(eRD);

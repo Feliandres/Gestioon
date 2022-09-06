@@ -22,7 +22,7 @@ public class companyWindow extends JFrame{
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setVisible(true);
         setLocationRelativeTo(null);
-        ImageIcon image = new ImageIcon(".\\src\\assets\\make_Window.png");
+        ImageIcon image = new ImageIcon(".\\src\\assets\\icons\\option\\iconMinimarket.png");
         setIconImage(image.getImage());
         connection con = new connection();
         validations val = new validations();

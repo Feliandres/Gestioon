@@ -113,7 +113,7 @@
           <background color="-12764094"/>
           <font name="Source Code Pro" size="12"/>
           <foreground color="-1"/>
-          <icon value="assets/save_icon.png"/>
+          <icon value="assets/icons/buttons/save_icon.png"/>
           <text value="GUARDAR"/>
         </properties>
       </component>
@@ -125,7 +125,7 @@
           <background color="-12764094"/>
           <font name="Source Code Pro" size="12"/>
           <foreground color="-1"/>
-          <icon value="assets/clean_icon.png"/>
+          <icon value="assets/icons/buttons/iconClean.png"/>
           <text value="LIMPIAR"/>
         </properties>
       </component>
@@ -151,7 +151,7 @@
         <properties>
           <font name="Source Code Pro" size="12" style="1"/>
           <foreground color="-16777216"/>
-          <icon value="assets/minimarketTitle.png"/>
+          <icon value="assets/icons/option/minimarketTitle.png"/>
           <text value="DATOS EMPRESA"/>
         </properties>
       </component>

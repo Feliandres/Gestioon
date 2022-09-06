@@ -33,7 +33,7 @@ public class productWindow extends JFrame{
         setLocationRelativeTo(null);
         setResizable(false);
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
-        ImageIcon image = new ImageIcon(".\\src\\assets\\product_Window.png");
+        ImageIcon image = new ImageIcon(".\\src\\assets\\icons\\product\\iconProductWindow.png");
         setIconImage(image.getImage());
 
         this.fillComboBox(co);

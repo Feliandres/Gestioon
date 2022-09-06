@@ -33,7 +33,7 @@
         <properties>
           <font name="Source Code Pro" size="16" style="1"/>
           <foreground color="-462625"/>
-          <icon value="assets/sellTitle.png"/>
+          <icon value="assets/icons/sell/sellTitle.png"/>
           <text value="Venta"/>
         </properties>
       </component>
@@ -130,7 +130,7 @@
         <properties>
           <background color="-12828091"/>
           <foreground color="-15724785"/>
-          <icon value="assets/generateSell.png"/>
+          <icon value="assets/icons/buttons/generateSell.png"/>
           <text value=""/>
         </properties>
       </component>
@@ -229,7 +229,7 @@
         <properties>
           <background color="-12828091"/>
           <foreground color="-15724785"/>
-          <icon value="assets/searchProvider.png"/>
+          <icon value="assets/icons/search/searchProvider.png"/>
           <text value=""/>
         </properties>
       </component>

@@ -16,11 +16,11 @@ public class loginWindow extends JFrame {
         setContentPane(JPanelLogin);
         setVisible(true);
         setTitle("Veci's Market");
-        setSize(390, 400);
+        setSize(380, 400);
         setResizable(false);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
-        ImageIcon image = new ImageIcon(".\\src\\assets\\logo_large.png");
+        ImageIcon image = new ImageIcon(".\\src\\assets\\icons\\login\\iconLogoWindow.png");
         setIconImage(image.getImage());
         connection con = new connection();
         con.sendCredentials();

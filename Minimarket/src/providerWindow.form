@@ -81,7 +81,7 @@
           <background color="-12828091"/>
           <font name="Source Code Pro" size="12" style="0"/>
           <foreground color="-1"/>
-          <icon value="assets/save_icon.png"/>
+          <icon value="assets/icons/buttons/save_icon.png"/>
           <text value="CREAR"/>
         </properties>
       </component>
@@ -118,7 +118,7 @@
           <background color="-16777216"/>
           <font name="Source Code Pro" size="16" style="1"/>
           <foreground color="-16777216"/>
-          <icon value="assets/providerTitle.png"/>
+          <icon value="assets/icons/provider/providerTitle.png"/>
           <text value="PROVEEDORES"/>
         </properties>
       </component>
@@ -185,7 +185,7 @@
           <background color="-12828091"/>
           <font name="Century Gothic" size="12" style="3"/>
           <foreground color="-790313"/>
-          <icon value="assets/searchProvider.png"/>
+          <icon value="assets/icons/search/searchProvider.png"/>
           <text value=""/>
         </properties>
       </component>
@@ -197,7 +197,7 @@
           <background color="-12828091"/>
           <font name="Source Code Pro" size="12" style="0"/>
           <foreground color="-1"/>
-          <icon value="assets/clean_icon.png"/>
+          <icon value="assets/icons/buttons/iconClean.png"/>
           <text value="LIMPIAR"/>
         </properties>
       </component>

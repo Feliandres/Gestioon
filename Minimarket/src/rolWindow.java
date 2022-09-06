@@ -21,7 +21,7 @@ public class rolWindow extends JFrame{
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
         setResizable(false);
-        ImageIcon image = new ImageIcon(".\\src\\assets\\roles_Window.png");
+        ImageIcon image = new ImageIcon(".\\src\\assets\\icons\\rol\\roles_Window.png");
         setIconImage(image.getImage());
 
         // Default title

@@ -39,7 +39,7 @@ public class sellWindow extends JFrame{
         setTitle("Factura");
         setResizable(false);
         setLocationRelativeTo(null);
-        ImageIcon image = new ImageIcon(".\\src\\assets\\sell_Window.png");
+        ImageIcon image = new ImageIcon(".\\src\\assets\\icons\\sell\\iconWindowSell.png");
         setIconImage(image.getImage());
 
 

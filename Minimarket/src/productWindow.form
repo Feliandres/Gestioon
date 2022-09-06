@@ -88,7 +88,7 @@
           <background color="-13880525"/>
           <font name="Century Gothic" size="12" style="3"/>
           <foreground color="-1575182"/>
-          <icon value="assets/save_icon.png"/>
+          <icon value="assets/icons/buttons/save_icon.png"/>
           <label value="CREAR"/>
           <text value="CREAR"/>
         </properties>
@@ -161,7 +161,7 @@
           <focusable value="false"/>
           <font name="Century Gothic" size="12" style="3"/>
           <foreground color="-1575182"/>
-          <icon value="assets/searchProduct.png"/>
+          <icon value="assets/icons/search/searchProduct.png"/>
           <text value=""/>
         </properties>
       </component>
@@ -223,7 +223,7 @@
           <background color="-13880525"/>
           <font name="Century Gothic" size="12" style="3"/>
           <foreground color="-1575182"/>
-          <icon value="assets/clean_icon.png"/>
+          <icon value="assets/icons/buttons/iconClean.png"/>
           <text value="LIMPIAR"/>
         </properties>
       </component>
@@ -234,7 +234,7 @@
         <properties>
           <font name="Source Code Pro" size="16" style="1"/>
           <foreground color="-16777216"/>
-          <icon value="assets/product_Title.png"/>
+          <icon value="assets/icons/product/productTitle.png"/>
           <text value="PRODUCTO"/>
         </properties>
       </component>

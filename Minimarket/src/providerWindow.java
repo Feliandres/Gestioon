@@ -27,7 +27,7 @@ public class providerWindow extends JFrame{
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
-        ImageIcon image = new ImageIcon(".\\src\\assets\\provider_Window.png");
+        ImageIcon image = new ImageIcon(".\\src\\assets\\icons\\provider\\iconProviderWindow.png");
         setIconImage(image.getImage());
 
         // Default Title

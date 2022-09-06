@@ -34,9 +34,9 @@ public class generateFac {
                     String addrClient = dataClient.getString("dirCli_CF");
                     String telClient = dataClient.getString("telCli_CF");
                     String date = dataClient.getString("fecha_CF");
-                    dataUser.append(dniClient).append("\nName: ").append(nomClient).append(" ").append(apeClient);
-                    dataUser.append("\nAddress: ").append(addrClient).append("\nTelefono: ").append(telClient)
-                            .append("\nDate: ").append(date).append("\n\n");
+                    dataUser.append(dniClient).append("\nNombre: ").append(nomClient).append(" ").append(apeClient);
+                    dataUser.append("\nDireccion: ").append(addrClient).append("\nTelefono: ").append(telClient)
+                            .append("\nFecha: ").append(date).append("\n\n");
 
                     pdfName = nomClient.substring(0,2) + apeClient.substring(0,2) + "_" + date + "-" + connection.getNum_CF() +".pdf";
                 }
@@ -49,7 +49,7 @@ public class generateFac {
 
 
             // References to image
-            Image imagen = Image.getInstance(".\\src\\assets\\logo_large.png");
+            Image imagen = Image.getInstance(".\\src\\assets\\logos\\logoMinimarket.png");
 
             PdfWriter.getInstance(document, Files.newOutputStream(Paths.get(path + pdfName)));
             document.open();
@@ -60,7 +60,7 @@ public class generateFac {
             // Header: Characteristics about Pharmacy
             Paragraph header = new Paragraph("FACTURA\n"  + "RUC: "+ credentialsToUse.getFkruc_Emp() +  "\n"
                     + "DIRECCION: " + credentialsToUse.getDir_Emp() + "\n" + "CORREO: " + credentialsToUse.getEma_Emp()
-                    + "TELEFONO: " + credentialsToUse.getTel_Emp() + "\n\n");
+                    + "\nTELEFONO: " + credentialsToUse.getTel_Emp() + "\n\n");
 
             header.setAlignment(1);
             document.add(header);

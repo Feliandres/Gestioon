@@ -36,7 +36,7 @@ public class makeSaleWindow extends JFrame{
         // Characteristics of Window
         setContentPane(makeSale);
         setTitle("Generar Venta");
-        setSize(600, 310);
+        setSize(600, 350);
         setResizable(false);
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setVisible(true);

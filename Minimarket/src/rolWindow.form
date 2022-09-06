@@ -23,7 +23,7 @@
         <properties>
           <font name="Source Code Pro" size="16" style="1"/>
           <foreground color="-1"/>
-          <icon value="assets/rolTitle.png"/>
+          <icon value="assets/icons/rol/rolTitle.png"/>
           <text value="ROLES"/>
         </properties>
       </component>
@@ -81,7 +81,7 @@
           <background color="-13880525"/>
           <font name="Century Gothic" size="12" style="3"/>
           <foreground color="-1575182"/>
-          <icon value="assets/save_icon.png"/>
+          <icon value="assets/icons/buttons/save_icon.png"/>
           <text value="CREAR"/>
         </properties>
       </component>
@@ -111,7 +111,7 @@
           <background color="-13880525"/>
           <font name="Century Gothic" size="12" style="3"/>
           <foreground color="-1575182"/>
-          <icon value="assets/clean_icon.png"/>
+          <icon value="assets/icons/buttons/iconClean.png"/>
           <text value="LIMPIAR"/>
         </properties>
       </component>
@@ -126,7 +126,7 @@
           <background color="-13880525"/>
           <font name="Century Gothic" size="12" style="3"/>
           <foreground color="-1575182"/>
-          <icon value="assets/searchRol.png"/>
+          <icon value="assets/icons/search/searchRol.png"/>
           <text value=""/>
         </properties>
       </component>

@@ -21,7 +21,7 @@ public class searchWindow extends JFrame{
         setLocationRelativeTo(null);
         setTitle("Inventario");
         setResizable(false);
-        ImageIcon image = new ImageIcon(".\\src\\assets\\search_Window.png");
+        ImageIcon image = new ImageIcon(".\\src\\assets\\icons\\search\\searchAllalt.png");
         setIconImage(image.getImage());
 
         // Fill comboBox with tables names

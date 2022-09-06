@@ -14,7 +14,7 @@ public class allReportWindow {
     public allReportWindow(String pathToSave) {
         Document documentReportAllInventory = new Document(PageSize.A4, 5, 5, 10, 10);
         try{
-            Image image = Image.getInstance(".\\src\\assets\\logo_large.png");
+            Image image = Image.getInstance(".\\src\\assets\\logos\\logoMinimarket.png");
             image.setAlignment(1);
             Calendar d = new GregorianCalendar();
             String ingReport = String.valueOf(d.get(Calendar.YEAR)) + '-' + (d.get(Calendar.MONTH) + 1) + '-'

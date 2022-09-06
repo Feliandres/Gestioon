@@ -19,7 +19,7 @@
           <background color="-2699868"/>
           <font name="Source Code Pro" size="16" style="1"/>
           <foreground color="-13685196"/>
-          <icon value="assets/userTitle.png"/>
+          <icon value="assets/icons/user/userTitle.png"/>
           <text value="USUARIOS"/>
         </properties>
       </component>
@@ -135,7 +135,7 @@
           <background color="-15724785"/>
           <font name="Source Code Pro" size="12" style="1"/>
           <foreground color="-132362"/>
-          <icon value="assets/save_icon.png"/>
+          <icon value="assets/icons/buttons/save_icon.png"/>
           <text value="CREAR"/>
         </properties>
       </component>
@@ -149,7 +149,7 @@
           <background color="-15724785"/>
           <font name="Source Code Pro" size="12" style="1"/>
           <foreground color="-132362"/>
-          <icon value="assets/clean_icon.png"/>
+          <icon value="assets/icons/buttons/iconClean.png"/>
           <text value="LIMPIAR"/>
         </properties>
       </component>
@@ -303,7 +303,7 @@
           <background color="-15724785"/>
           <font name="Source Code Pro" size="12" style="1"/>
           <foreground color="-132362"/>
-          <icon value="assets/searchUser_icon.png"/>
+          <icon value="assets/icons/search/searchUser.png"/>
           <text value=""/>
         </properties>
       </component>

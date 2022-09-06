@@ -60,7 +60,7 @@
           <background color="-12764094"/>
           <font name="Century Gothic" size="12" style="3"/>
           <foreground color="-1773593"/>
-          <icon value="assets/searchAll.png"/>
+          <icon value="assets/icons/search/searchAllalt.png"/>
           <text value=""/>
         </properties>
       </component>

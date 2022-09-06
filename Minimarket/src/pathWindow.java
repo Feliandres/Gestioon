@@ -1,10 +1,9 @@
 import javax.swing.*;
-import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class pathWindow extends  JFrame{
-    private JButton SAVEButton;
+    private JButton saveButton;
     private JTextField pathJT;
     private JPanel configurationW;
 
@@ -15,13 +14,13 @@ public class pathWindow extends  JFrame{
         setLocationRelativeTo(null);
         setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Configuracion de Path");
-        ImageIcon image = new ImageIcon(".\\src\\assets\\icon_path.png");
+        ImageIcon image = new ImageIcon(".\\src\\assets\\icons\\option\\iconPathWindow.png");
         setIconImage(image.getImage());
         setResizable(false);
         connection co = new connection();
         this.showLastPath(co);
 
-        SAVEButton.addActionListener(e -> {
+        saveButton.addActionListener(e -> {
             String pathRoute = pathJT.getText();
             if (pathRoute.length() != 0){
                 int error = co.configurationPath(pathRoute);

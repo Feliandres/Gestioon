@@ -152,7 +152,7 @@
                 <properties>
                   <background color="-12828091"/>
                   <foreground color="-1"/>
-                  <icon value="assets/addDetail.png"/>
+                  <icon value="assets/icons/buttons/addDetail.png"/>
                   <text value=""/>
                 </properties>
               </component>
@@ -207,7 +207,7 @@
                 </constraints>
                 <properties>
                   <background color="-12828091"/>
-                  <icon value="assets/clean.png"/>
+                  <icon value="assets/icons/buttons/clean.png"/>
                   <text value=""/>
                 </properties>
               </component>
@@ -222,7 +222,7 @@
                 </constraints>
                 <properties>
                   <actionCommand value=""/>
-                  <icon value="assets/searchUser_icon.png"/>
+                  <icon value="assets/icons/search/searchUser.png"/>
                   <text value=""/>
                 </properties>
               </component>
@@ -368,7 +368,7 @@
                 <properties>
                   <background color="-12828091"/>
                   <foreground color="-1"/>
-                  <icon value="assets/deleteDetail.png"/>
+                  <icon value="assets/icons/buttons/deleteDetail.png"/>
                   <text value=""/>
                 </properties>
               </component>
@@ -378,7 +378,7 @@
                 </constraints>
                 <properties>
                   <background color="-12828091"/>
-                  <icon value="assets/clean.png"/>
+                  <icon value="assets/icons/buttons/clean.png"/>
                   <text value=""/>
                 </properties>
               </component>
@@ -403,7 +403,7 @@
                 </constraints>
                 <properties>
                   <actionCommand value=""/>
-                  <icon value="assets/searchUser_icon.png"/>
+                  <icon value="assets/icons/search/searchUser.png"/>
                   <text value=""/>
                 </properties>
               </component>
@@ -428,7 +428,7 @@
         </constraints>
         <properties>
           <background color="-14824884"/>
-          <icon value="assets/makeSell.png"/>
+          <icon value="assets/icons/sell/makeSell.png"/>
           <text value="VENTA"/>
         </properties>
       </component>

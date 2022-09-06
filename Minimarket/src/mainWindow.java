@@ -66,96 +66,96 @@ public class mainWindow extends  JFrame{
 
             // Items of 'Sell'
             itemGenerateSell = new JMenuItem("Generar");
-            image = new ImageIcon(".\\src\\assets\\sell_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\sell\\iconSell.png");
             itemGenerateSell.setIcon(image);
             subMenuSell.add(itemGenerateSell);
 
 
             // Items of 'Users'
             itemRegisterU = new JMenuItem(register);
-            image = new ImageIcon(".\\src\\assets\\registerUser_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\user\\iconRegisterUser.png");
             itemRegisterU.setIcon(image);
             subMenuUsers.add(itemRegisterU);
 
             itemDeleteU = new JMenuItem(delete);
-            image = new ImageIcon(".\\src\\assets\\deleteUser_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\user\\iconDeleteUser.png");
             itemDeleteU.setIcon(image);
             subMenuUsers.add(itemDeleteU);
 
             itemUpdateU = new JMenuItem(update);
-            image = new ImageIcon(".\\src\\assets\\updateUser_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\user\\iconUpdateUser.png");
             itemUpdateU.setIcon(image);
             subMenuUsers.add(itemUpdateU);
 
 
             // Items of 'Products'
             itemRegisterP = new JMenuItem(register);
-            image = new ImageIcon(".\\src\\assets\\registerProduct_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\product\\iconRegisterProduct.png");
             itemRegisterP.setIcon(image);
             subMenuProducts.add(itemRegisterP);
 
             itemDeleteP = new JMenuItem(delete);
-            image = new ImageIcon(".\\src\\assets\\deleteProduct_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\product\\iconDeleteProduct.png");
             itemDeleteP.setIcon(image);
             subMenuProducts.add(itemDeleteP);
 
             itemUpdateP = new JMenuItem(update);
-            image = new ImageIcon(".\\src\\assets\\updateProduct_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\product\\iconUpdateProduct.png");
             itemUpdateP.setIcon(image);
             subMenuProducts.add(itemUpdateP);
 
 
             // Items of 'Providers'
             itemRegisterPr = new JMenuItem(register);
-            image = new ImageIcon(".\\src\\assets\\crateProv_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\provider\\iconRegisterProvider.png");
             itemRegisterPr.setIcon(image);
             subMenuProviders.add(itemRegisterPr);
 
             itemDeletePr = new JMenuItem(delete);
-            image = new ImageIcon(".\\src\\assets\\deleteProv_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\provider\\iconDeleteProvider.png");
             itemDeletePr.setIcon(image);
             subMenuProviders.add(itemDeletePr);
 
             itemUpdatePr = new JMenuItem(update);
-            image = new ImageIcon(".\\src\\assets\\updateProv_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\provider\\iconUpdateProvider.png");
             itemUpdatePr.setIcon(image);
             subMenuProviders.add(itemUpdatePr);
 
 
             // Items of 'Roles'
             itemDeleteR = new JMenuItem(delete);
-            image = new ImageIcon(".\\src\\assets\\deleteRol.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\rol\\iconDeleteRol.png");
             itemDeleteR.setIcon(image);
             subMenuRoles.add(itemDeleteR);
 
             itemUpdateR = new JMenuItem(update);
-            image = new ImageIcon(".\\src\\assets\\updateRol.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\rol\\iconUpdateRol.png");
             itemUpdateR.setIcon(image);
             subMenuRoles.add(itemUpdateR);
 
 
             // Items of 'Reports'
             itemInventory = new JMenuItem("Todo Inventario");
-            image = new ImageIcon(".\\src\\assets\\inventory_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\report\\iconInventory.png");
             itemInventory.setIcon(image);
             subMenuReports.add(itemInventory);
 
 
             // Items of 'Query'
             itemSearchAll = new JMenuItem("Inventario");
-            image = new ImageIcon(".\\src\\assets\\inventorySearch_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\inventory\\iconInventorySearch.png");
             itemSearchAll.setIcon(image);
             subMenuInventory.add(itemSearchAll);
 
 
             // Items of 'Options'
             itemPath = new JMenuItem("Configurar ruta");
-            image = new ImageIcon(".\\src\\assets\\path_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\option\\iconPath.png");
             itemPath.setIcon(image);
             subMenuOption.add(itemPath);
 
             itemEmp = new JMenuItem("Datos Empresa");
-            image = new ImageIcon(".\\src\\assets\\tienda_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\option\\iconMinimarket.png");
             itemEmp.setIcon(image);
             subMenuOption.add(itemEmp);
 
@@ -226,49 +226,49 @@ public class mainWindow extends  JFrame{
 
             // Items of 'Sell'
             itemGenerateSell = new JMenuItem("Generar");
-            image = new ImageIcon(".\\src\\assets\\deleteProduct_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\sell\\iconSell.png");
             itemGenerateSell.setIcon(image);
             subMenuSell.add(itemGenerateSell);
 
             // Items of 'Users'
             itemRegisterU = new JMenuItem(register);
-            image = new ImageIcon(".\\src\\assets\\registerUser_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\user\\iconRegisterUser.png");
             itemRegisterU.setIcon(image);
             subMenuUsers.add(itemRegisterU);
 
             itemUpdateU = new JMenuItem(update);
-            image = new ImageIcon(".\\src\\assets\\updateUser_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\user\\iconUpdateUser.png");
             itemUpdateU.setIcon(image);
             subMenuUsers.add(itemUpdateU);
 
 
             // Items of 'Products'
             itemRegisterP = new JMenuItem(register);
-            image = new ImageIcon(".\\src\\assets\\registerProduct_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\product\\iconRegisterProduct.png");
             itemRegisterP.setIcon(image);
             subMenuProducts.add(itemRegisterP);
 
             itemUpdateP = new JMenuItem(update);
-            image = new ImageIcon(".\\src\\assets\\updateProduct_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\product\\iconUpdateProduct.png");
             itemUpdateP.setIcon(image);
             subMenuProducts.add(itemUpdateP);
 
 
             // Items of 'Reports'
             itemInventory = new JMenuItem("Todo Inventario");
-            image = new ImageIcon(".\\src\\assets\\inventory_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\report\\iconInventory.png");
             itemInventory.setIcon(image);
             subMenuReports.add(itemInventory);
 
             // Items of 'Query'
             itemSearchAll = new JMenuItem("Inventario");
-            image = new ImageIcon(".\\src\\assets\\inventorySearch_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\inventory\\iconInventorySearch.png");
             itemSearchAll.setIcon(image);
             subMenuInventory.add(itemSearchAll);
 
             // Items of 'Options'
             itemPath = new JMenuItem("Configurar ruta");
-            image = new ImageIcon(".\\src\\assets\\path_icon.png");
+            image = new ImageIcon(".\\src\\assets\\icons\\option\\iconPath.png");
             itemPath.setIcon(image);
             subMenuOption.add(itemPath);
 
@@ -285,6 +285,24 @@ public class mainWindow extends  JFrame{
 
             // Options
             itemPath.addActionListener(e -> new pathWindow());
+
+            // Reports
+            itemInventory.addActionListener(e -> {
+                connection co = new connection();
+                String path = "";
+                try{
+                    ResultSet pathSave = co.getPathSale();
+                    if(pathSave.next()){
+                        path = pathSave.getString(1);
+                    }
+                } catch (SQLException eVp){
+                    System.out.println(eVp);
+                }
+                if (new File(path).exists()){
+                    new allReportWindow(path);
+                }
+            });
+
         }
 
 
@@ -295,12 +313,12 @@ public class mainWindow extends  JFrame{
         setLocationRelativeTo(null);
         setResizable(false);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        image = new ImageIcon(".\\src\\assets\\menu_Window.png");
+        image = new ImageIcon(".\\src\\assets\\menu\\iconMenuWindow.png");
         setIconImage(image.getImage());
 
         JLabel label = new JLabel();
         add(label);
-        ImageIcon imageIcon = new ImageIcon(".\\src\\assets\\principalImage.png");
+        ImageIcon imageIcon = new ImageIcon(".\\src\\assets\\logos\\principalImage.png");
         label.setIcon(imageIcon);
 
 

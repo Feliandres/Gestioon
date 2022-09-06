@@ -14,7 +14,9 @@ CREATE TABLE proveedor(
     tel_prov VARCHAR(10) NULL,
     ema_prov VARCHAR(30) NULL 
 );
-INSERT INTO proveedor VALUES ('1752774305001', 'PROCAN S.A', '0961731484', 'procan@gmail.com');
+INSERT INTO proveedor VALUES ('1752774305001', 'PROCAN S.A', '0961731484', 'procan@gmail.com'), 
+('1752774306001', 'JURIS', '0961731485', 'juris@gmail.com'),
+('1752774307001', 'FRITZS', '0961731486', 'fritzs@hotmail.com');
 
 CREATE TABLE producto(
 	cod_Pro VARCHAR(7) PRIMARY KEY NOT NULL,
@@ -26,7 +28,10 @@ CREATE TABLE producto(
     FKident_Prov VARCHAR(13) NULL,
     FOREIGN KEY (FKident_Prov) REFERENCES proveedor(ident_prov) ON DELETE SET NULL ON UPDATE CASCADE
 ); 
-INSERT INTO producto VALUES('BORRAR', 'Borrar este producto',1.5, 2.5, 12, 0.0, '1752774305001');
+INSERT INTO producto VALUES('MOR-FAM', 'Mortadela Familiar (12 U)',1.5, 2.5, 12, 0.0, '1752774307001'),
+('TOC-JUR', 'Tocino Juris (12 U)',3.0, 3.5, 24, 0.0, '1752774306001'),
+('SAL-FAM', 'Salchichas Familiar (10 U)',1.0, 1.5, 12, 0.0, '1752774307001');
+
 
 CREATE TABLE cliente(
 	ident_Cli VARCHAR(13) NOT NULL PRIMARY KEY,
@@ -55,10 +60,8 @@ CREATE TABLE Usuario(
     FOREIGN KEY (FKtipo_rol) REFERENCES rol(tipo_rol) ON DELETE SET NULL ON UPDATE CASCADE
 );
 
-INSERT INTO usuario VALUES('1752774305', 'Carlos', 'Mefisto', '2022-06-09', '0987878987', 'carlos@gmail.com', 'adm', 'admin', 'admin');
-
-INSERT INTO usuario VALUES ('1752664471', 'Juan', 'Carlos', '2022-09-13', '0961731484'
-, 'juan@gmail.com', 'adm', 'carlos', '123');
+INSERT INTO usuario VALUES('1752774305', 'Carlos', 'Mefisto', '2022-06-09', '0987878987', 'carlos@gmail.com', 'adm', 'admin', 'admin'),
+('1752664471', 'Juan', 'Carlos', '2022-09-13', '0961731484', 'juan@gmail.com', 'adm', 'carlos', '123');
 
 CREATE TABLE empresa(
 	ruc_Emp VARCHAR(13) PRIMARY KEY,
@@ -111,6 +114,7 @@ CREATE TABLE pathPdf(
 );
 INSERT INTO pathPdf(id) VALUES (1);
 
+SELECT * FROM pathPdf;
 
 CREATE TRIGGER trg_reducir_stock
 AFTER insert on detalle

@@ -200,8 +200,12 @@ public class mainWindow extends  JFrame{
                 } catch (SQLException eVp){
                     System.out.println(eVp);
                 }
-                if (new File(path).exists()){
+                if (new File(path).exists() & !path.equals("Nothing")){
                     new allReportWindow(path);
+                } else {
+                    JOptionPane.showMessageDialog(null, "Configure un Path", "WARNING"
+                            , JOptionPane.WARNING_MESSAGE);
+                    new pathWindow();
                 }
             });
 
@@ -298,8 +302,12 @@ public class mainWindow extends  JFrame{
                 } catch (SQLException eVp){
                     System.out.println(eVp);
                 }
-                if (new File(path).exists()){
+                if (new File(path).exists() & !path.equals("Nothing")){
                     new allReportWindow(path);
+                } else {
+                    JOptionPane.showMessageDialog(null, "Configure un Path", "WARNING"
+                            , JOptionPane.WARNING_MESSAGE);
+                    new pathWindow();
                 }
             });
 

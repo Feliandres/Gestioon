@@ -73,12 +73,12 @@ public class generateFac {
             PdfPTable table = new PdfPTable(7);
 
             // Widths of cells
-            table.setWidths( new float[]{0.15f, 0.35f, 0.99f, 0.37f, 0.30f,0.30f, 0.45f});
+            table.setWidths( new float[]{0.15f, 0.45f, 0.99f, 0.25f, 0.28f,0.25f, 0.39f});
 
             table.addCell("N#");
             table.addCell("Codigo");
             table.addCell("Detalle");
-            table.addCell("Cantidad");
+            table.addCell("Cant.");
             table.addCell("PvP");
             table.addCell("Dto.");
             table.addCell("SubTotal");

@@ -25,7 +25,7 @@ public class connection {
     // Get connection to BDD
     private void getConnection(){
         try{ this.con = DriverManager.getConnection("jdbc:mysql://localhost/minimarket", "root"
-                , "MySQLedison18");
+                , "");
         } catch (SQLException e){ System.out.println("Exception: " + e); }
     }
 
